@@ -15,6 +15,8 @@
 		04E2733921A2920D00AD47AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2733821A2920D00AD47AA /* main.m */; };
 		04E2734321A2920D00AD47AA /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2734221A2920D00AD47AA /* _____Tests.m */; };
 		04E2734E21A2920D00AD47AA /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2734D21A2920D00AD47AA /* _____UITests.m */; };
+		04E2735D21A2922A00AD47AA /* WSAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2735C21A2922A00AD47AA /* WSAddressPicker.m */; };
+		04E2735F21A2927100AD47AA /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E2735E21A2927100AD47AA /* Address.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		04E2734921A2920D00AD47AA /* 地址选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "地址选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E2734D21A2920D00AD47AA /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		04E2734F21A2920D00AD47AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E2735B21A2922A00AD47AA /* WSAddressPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAddressPicker.h; sourceTree = "<group>"; };
+		04E2735C21A2922A00AD47AA /* WSAddressPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAddressPicker.m; sourceTree = "<group>"; };
+		04E2735E21A2927100AD47AA /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				04E2732A21A2920C00AD47AA /* AppDelegate.m */,
 				04E2732C21A2920C00AD47AA /* ViewController.h */,
 				04E2732D21A2920C00AD47AA /* ViewController.m */,
+				04E2735B21A2922A00AD47AA /* WSAddressPicker.h */,
+				04E2735C21A2922A00AD47AA /* WSAddressPicker.m */,
+				04E2735E21A2927100AD47AA /* Address.plist */,
 				04E2732F21A2920C00AD47AA /* Main.storyboard */,
 				04E2733221A2920D00AD47AA /* Assets.xcassets */,
 				04E2733421A2920D00AD47AA /* LaunchScreen.storyboard */,
@@ -236,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E2733621A2920D00AD47AA /* LaunchScreen.storyboard in Resources */,
+				04E2735F21A2927100AD47AA /* Address.plist in Resources */,
 				04E2733321A2920D00AD47AA /* Assets.xcassets in Resources */,
 				04E2733121A2920C00AD47AA /* Main.storyboard in Resources */,
 			);
@@ -264,6 +273,7 @@
 			files = (
 				04E2732E21A2920C00AD47AA /* ViewController.m in Sources */,
 				04E2733921A2920D00AD47AA /* main.m in Sources */,
+				04E2735D21A2922A00AD47AA /* WSAddressPicker.m in Sources */,
 				04E2732B21A2920C00AD47AA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
